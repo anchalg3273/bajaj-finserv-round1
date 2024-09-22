@@ -21,9 +21,9 @@ export async function POST(req: Request) {
 		console.error(validationResult.error);
 		return NextResponse.json({
 			is_success: false,
-			user_id: "manan_gulati_03111999",
-			email: "manangulati9@gmail.com",
-			roll_number: "RA2111026030210",
+			user_id: "anchal_gupta_21102003",
+			email: "anchalgupta1567@gmail.com",
+			roll_number: "RA2111026030191",
 			numbers: [],
 			alphabets: [],
 			highest_alphabet: [],
@@ -40,9 +40,9 @@ export async function POST(req: Request) {
 
 	const res = {
 		is_success: true,
-		user_id: "manan_gulati_03111999",
-		email: "manangulati9@gmail.com",
-		roll_number: "RA2111026030210",
+		user_id: "anchal_gupta_21102003",
+		email: "anchalgupta1567@gmail.com",
+		roll_number: "RA2111026030191",
 		numbers,
 		alphabets,
 		highest_alphabet:
